@@ -1,0 +1,100 @@
+.kalkulator {
+  width: 300px;
+  margin: 100px auto;
+  border: 2px solid #000000;
+  padding: 10px;
+  background-image: linear-gradient(to right, #a471e3, #ff07e2);
+}
+
+.display {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #000000;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+button {
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #000000;
+  color: #ffffff;
+  transition: 1s;
+  transform: rotate(360deg);
+}
+.logo {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  animation: myfirst 5s 2;
+  animation-direction: alternate;
+}
+.logo:hover {
+  animation-play-state: paused;
+}
+
+@keyframes myfirst {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  50% {
+    left: 1730px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+.trykk {
+  color: rgb(250, 3, 94);
+  border: 10px solid currentColor;
+  transition: color 250ms linear;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: auto;
+}
+.trykk:hover {
+  color: rebeccapurple;
+}
+
+.Sanel {
+  color: rgb(250, 3, 94);
+  border: 10px solid currentColor;
+  transition: color 250ms linear;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  margin: auto;
+}
+.Sanel:hover {
+  color: rebeccapurple;
+}
+.App {
+  background-image: linear-gradient(to right, #e7e7e7, #ff07e2);
+}
